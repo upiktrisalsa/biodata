@@ -1,0 +1,120 @@
+/* Style Umum */
+body {
+    background-color: #f8f9fa; /* Warna latar belakang yang terang */
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Style Header */
+.cv-header {
+    background-color: #007bff; /* Biru Bootstrap */
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -75px; /* Mengangkat gambar ke atas */
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+.cv-header h1 {
+    font-size: 2.5rem;
+    margin-top: 15px;
+}
+
+.cv-header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: #e0e0e0;
+}
+
+/* Style untuk setiap Bagian */
+.section-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.experience-item, .education-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h5, .education-item h5 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.experience-item p, .education-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Style untuk Keterampilan */
+.skills-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills-list li {
+    background-color: #007bff; /* Warna biru Bootstrap */
+    color: white;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 30px; /* Membuat sudut bulat */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+/* Informasi Kontak */
+.contact-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.contact-info strong {
+    font-weight: bold;
+}
+
+/* Style Responsif */
+@media (max-width: 768px) {
+    .cv-header h1 {
+        font-size: 2rem;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    .skills-list li {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+}
